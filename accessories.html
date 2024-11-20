@@ -4,19 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>accessories</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        </style>
 </head>
-<body>
     <div class="navigation-bar">
         <nav>
         <a href="menu.html">MENU</a>
-        <a class="active" href="home"><div id="home"></a>
-        <a href="accessories.html">ACCESSORIES</a>
-        <a href="pants.html">PANTS </a>
-        <a href="tops.html">TOPS</a>
     </nav>
         </div> 
     <h1>ACCESSORIES</h1>
     <h2>Looking for accessories to match your outfit? This jewelries is for you.</h2>
+    <a href="contact.html">Order Now!</a>
+    <hr>
+    <br>
+    <div class="row">
+        <div class="column">
     <img src="https://i.pinimg.com/736x/8d/6b/3e/8d6b3e460408a8218fb68e896a4e5e7a.jpg" height="250px">
+    <p>Elegant Simple Pearl Necklace</p> 
+</div>
+<div class="column">
+    <img src="https://i.pinimg.com/enabled_lo_mid/736x/e4/84/c9/e484c91e132e2b2c2332f455ae5f9e88.jpg" height="250px">
+    <p>Seashell Serenity Necklace</p>
+</div>
+<div class="column">
+    <img src="https://i.pinimg.com/enabled_lo_mid/736x/89/39/3d/89393de1aa81d523bfc65b2ebecec0bb.jpg" height="250px">
+    <p>Teardrop Emerald Necklace</p>
+    </div>
+</div>
 </body>
 </html>
